@@ -37,7 +37,6 @@ def scrap_year():
 
             if index == 0:
                 if (last_url == page_url):
-                    print(last_url, page_url)
                     done = True
                     break;
                 last_url = page_url
